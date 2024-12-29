@@ -1,2 +1,1 @@
-# portfolio-vanillaJs
-💻 Frontend portfolio showcasing pure JavaScript skills through various web applications (Password generator, Todo app, etc.) - No frameworks, just vanilla JS
+💻 다양한 웹 애플리케이션(비밀번호 생성기, Todo 앱 등)을 통해 순수 자바스크립트 기술을 선보이는 프론트엔드 포트폴리오 - 프레임워크 없이 바닐라 JS만 제공
