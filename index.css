@@ -1,0 +1,71 @@
+/* 기본 스타일 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* 헤더 스타일 */
+header {
+  margin-top: 10vh;
+}
+
+/* 목록 */
+.container {
+  margin: 1.25rem auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1280px;
+}
+
+.card {
+  background: #fff;
+  padding: 0.725rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 프로젝트 제목 */
+.title {
+  margin-bottom: 0.725rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* 프로젝트 설명 */
+.desc {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #808080;
+}
+
+/* 링크 버튼 */
+.link {
+  background: #007bff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+.link:hover {
+  background: #0056b3;
+}
